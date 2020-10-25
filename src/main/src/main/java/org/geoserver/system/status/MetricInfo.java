@@ -18,7 +18,7 @@ public enum MetricInfo {
     LOGICAL_CPUS("CPU", 101, "Number of logical CPUs"),
     RUNNING_PROCESS("CPU", 102, "Number of running process"),
     RUNNING_THREADS("CPU", 103, "Number of running threads"),
-    CPU_LOAD("CPU", 104, "CPU average load", "%"),
+    // removed from OSHI    CPU_LOAD("CPU", 104, "CPU average load", "%"),
     PER_CPU_LOAD("CPU", 105, "CPU load", "%"),
     // memory metrics
     MEMORY_USED("MEMORY", 200, "Used physical memory ", "%"),
